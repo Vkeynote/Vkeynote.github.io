@@ -23,4 +23,4 @@ Book-A-Meal is an application that allows customers to make food orders at their
 
 
 ## Github pages link
-* https://github.com/Victor-Kinoti
+* https://victor-kinoti.github.io
