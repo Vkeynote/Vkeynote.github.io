@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(bknd.jpg);
+    min-height: 100vh;
+    background-size: cover; 
+    background-position: center;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+   
+}
+
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.main-nav button{
+    margin-top: 30px;
+    margin-left: 300px;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+
+.main_menu :active{
+    background-color: darkorange;
+
+}
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li.active a{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover{
+    border: 1px solid darkorange;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.logo{
+    position: absolute;
+    width:auto;
+    height: 80px;
+    position: fixed;
+    top: 500px;
+    left: 440px;
+
+}
+    
+  
+.logo h2{
+    float: bottom;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.button{
+    width: auto;
+    margin-top: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-family:  sans-serif;
+    font-weight: bold;
+    float: right;
+}
+
+.btn{
+   padding: 10px 30px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 15px;
+   margin-right: 10px;
+   
+   border: 1px solid #fff; 
+   
+   
+}
+.button_2{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -5px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+   
+    box-shadow: opx 0px 5px 0px #665533
+}
+.button_one{
+    border-radius: 5px;
+}
+
+.button_two{
+    border-radius: 5px;
+}
+
+.button_one :active{
+    background-color: darkorange; 
+}
+
+.btn:hover {
+    background-color: darkorange;
+     
+}
+
+.log_in{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(97, 95, 97, 0.459);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form input{
+    font-family: "Rooboto", sans-serif;
+    outline: none;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;  
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px;
+
+}.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(10, 10, 10);
+    width: 100%;
+    border: 0;
+    padding: 15px;  
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.form button:hover, .form button:active{
+    background-color: darkslategrey;
+}
+.form .message{
+    color: fuchsia;
+}
+.form a{
+    color: lawngreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.the_team{
+   
+    text-align: center;
+    padding: 6px;
+}
+
+.the_team h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #fff;
+    font-size: 30px;
+    position: fixed;
+    top: 15px;
+    left: 570px;
+    
+}
+
+.border_line{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.img_sec{
+    margin-bottom: 40px;
+
+}
+.img_sec a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 200px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.img_sec a img{
+    transition: none;
+    width: 100%;
+    filter: grayscale(100%);
+}
+.img_sec a:hover > img{
+    filter: none;
+}
+
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
